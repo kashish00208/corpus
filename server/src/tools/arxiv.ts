@@ -1,4 +1,3 @@
-//Script that extract research paper data from URL
 import { XMLParser } from "fast-xml-parser";
 
 export async function resolveArxivUrl(inputURL: string) {
