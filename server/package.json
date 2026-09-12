@@ -7,19 +7,25 @@
     "dev": "tsx src/index.ts",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "contract:emit": "prisma contract emit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@prisma/cli-engine": "^0.2.3",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.4.1",
+    "prisma": "^8.0.0-rc.10",
+    "tsx": "^4.23.13",
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@prisma/orm-postgres": "^8.0.0-rc.10",
     "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
     "jsonwebtoken": "^9.0.3"
   }
 }
