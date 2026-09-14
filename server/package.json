@@ -19,11 +19,12 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.4.1",
     "@types/pdfkit": "^0.17.6",
-    "prisma": "^8.0.0-rc.10",
+    "prisma": "^7.10.0",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@prisma/client": "^7.10.0",
     "@prisma/orm-postgres": "^8.0.0-rc.10",
     "bcryptjs": "^3.0.3",
     "dotenv": "^17.4.2",
