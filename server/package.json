@@ -15,7 +15,6 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@prisma/cli-engine": "^0.2.3",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.4.1",
     "@types/pdfkit": "^0.17.6",
@@ -24,11 +23,13 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
     "@prisma/orm-postgres": "^8.0.0-rc.10",
     "bcryptjs": "^3.0.3",
     "dotenv": "^17.4.2",
     "jsonwebtoken": "^9.0.3",
-    "pdfkit": "^0.20.2"
+    "pdfkit": "^0.20.2",
+    "pg": "^8.23.0"
   }
 }
